@@ -100,6 +100,7 @@ void loop () {
             if (remainingTime.totalseconds() <= 0) {
                 Serial.println("Happy New Year!");
                 Serial.println();
+                // Trigger your fancy output here
             }
             else {
                 Serial.print("Time until New Year's: ");
